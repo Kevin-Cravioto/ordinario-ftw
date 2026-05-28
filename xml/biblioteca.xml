@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    
+    <album id="1">
+        <titulo>Appetite for Destruction</titulo>
+        <artista>Guns N' Roses</artista>
+        <genero>Rock</genero>
+        <anio>1987</anio>
+        <portada>img/appetite.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>Welcome to the Jungle</nombre>
+                <duracion>4:31</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Sweet Child O' Mine</nombre>
+                <duracion>5:56</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Paradise City</nombre>
+                <duracion>6:46</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="2">
+        <titulo>Nevermind</titulo>
+        <artista>Nirvana</artista>
+        <genero>Grunge</genero>
+        <anio>1991</anio>
+        <portada>img/nevermind.jpg</portada>
+        <calificacion>4</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>Smells Like Teen Spirit</nombre>
+                <duracion>5:01</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Come As You Are</nombre>
+                <duracion>3:39</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="3">
+        <titulo>DINASTÍA</titulo>
+        <artista>Peso Pluma &amp; Tito Double P</artista>
+        <genero>Música Mexicana</genero>
+        <anio>2025</anio>
+        <portada>img/dinastia.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion><nombre>intro</nombre><duracion>1:50</duracion><calificacion>4</calificacion></cancion>
+            <cancion><nombre>dopamina</nombre><duracion>3:12</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>ni pedo</nombre><duracion>2:45</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>putielegante</nombre><duracion>3:05</duracion><calificacion>4</calificacion></cancion>
+            <cancion><nombre>7-3</nombre><duracion>2:58</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>billete</nombre><duracion>3:15</duracion><calificacion>4</calificacion></cancion>
+            <cancion><nombre>daño</nombre><duracion>2:50</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>trucha</nombre><duracion>3:22</duracion><calificacion>4</calificacion></cancion>
+            <cancion><nombre>morras II</nombre><duracion>3:10</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>mezcal</nombre><duracion>2:48</duracion><calificacion>4</calificacion></cancion>
+            <cancion><nombre>malibu</nombre><duracion>3:01</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>20s</nombre><duracion>2:35</duracion><calificacion>4</calificacion></cancion>
+            <cancion><nombre>viejo lobo</nombre><duracion>3:18</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>tu con el</nombre><duracion>2:55</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>bckpckbyz</nombre><duracion>3:43</duracion><calificacion>5</calificacion></cancion>
+        </canciones>
+    </album>
+
+</biblioteca>

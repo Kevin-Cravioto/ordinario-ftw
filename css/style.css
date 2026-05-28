@@ -1,0 +1,78 @@
+/* Paleta de colores oscura */
+:root {
+    --purple-neon: #a855f7;
+    --blue-faded: #3b82f6;
+    --bg-deep-dark: #09090b;
+}
+
+body {
+    background-color: var(--bg-deep-dark) !important;
+}
+
+/* Textos morados */
+.text-purple {
+    color: var(--purple-neon) !important;
+    text-shadow: 0 0 10px rgba(168, 85, 247, 0.3);
+}
+
+
+/* Línea divisoria independiente para el centro de la página */
+.aesthetic-line {
+    height: 2px;
+    width: 60%;
+    margin: 0 auto;
+    background: linear-gradient(90deg, transparent 0%, rgba(168, 85, 247, 0.8) 40%, rgba(59, 130, 246, 0.8) 60%, transparent 100%);
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
+    border-radius: 50%;
+}
+
+/* Borde inferior del Navbar desvanecido */
+.nav-aesthetic {
+    position: relative;
+}
+.nav-aesthetic::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent 0%, rgba(168, 85, 247, 0.6) 20%, rgba(59, 130, 246, 0.6) 80%, transparent 100%);
+}
+
+/* Borde superior del Footer desvanecido */
+.footer-aesthetic {
+    position: relative;
+}
+.footer-aesthetic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent 0%, rgba(59, 130, 246, 0.6) 20%, rgba(168, 85, 247, 0.6) 80%, transparent 100%);
+}
+
+/* --- BOTÓN Y FONDOS --- */
+
+/* Botón fantasma morado con efecto neón */
+.btn-outline-purple {
+    color: var(--purple-neon);
+    border: 2px solid var(--purple-neon);
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+.btn-outline-purple:hover {
+    color: #ffffff;
+    background-color: var(--purple-neon);
+    border-color: var(--purple-neon);
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
+}
+
+/* Degradado muy sutil de fondo */
+.custom-bg {
+    background: radial-gradient(circle at top, #14101f 0%, var(--bg-deep-dark) 100%);
+}
