@@ -6,7 +6,7 @@
         <artista>Guns N' Roses</artista>
         <genero>Rock</genero>
         <anio>1987</anio>
-        <portada>img/appetite.jpg</portada>
+        <portada>../img/appetite.jpg</portada>
         <calificacion>5</calificacion>
         <canciones>
             <cancion>
@@ -32,7 +32,7 @@
         <artista>Nirvana</artista>
         <genero>Grunge</genero>
         <anio>1991</anio>
-        <portada>img/nevermind.jpg</portada>
+        <portada>../img/nevermind.jpg</portada>
         <calificacion>4</calificacion>
         <canciones>
             <cancion>
@@ -53,7 +53,7 @@
         <artista>Peso Pluma &amp; Tito Double P</artista>
         <genero>Música Mexicana</genero>
         <anio>2025</anio>
-        <portada>img/dinastia.jpg</portada>
+        <portada>../img/dinastia.jpg</portada>
         <calificacion>5</calificacion>
         <canciones>
             <cancion><nombre>intro</nombre><duracion>1:50</duracion><calificacion>4</calificacion></cancion>
@@ -71,6 +71,34 @@
             <cancion><nombre>viejo lobo</nombre><duracion>3:18</duracion><calificacion>5</calificacion></cancion>
             <cancion><nombre>tu con el</nombre><duracion>2:55</duracion><calificacion>5</calificacion></cancion>
             <cancion><nombre>bckpckbyz</nombre><duracion>3:43</duracion><calificacion>5</calificacion></cancion>
+        </canciones>
+    </album>
+
+    <album id="4">
+        <titulo>ASTROWORLD</titulo>
+        <artista>Travis Scott</artista>
+        <genero>Hip-Hop</genero>
+        <anio>2018</anio>
+        <portada>../img/astroworld.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion><nombre>STARGAZING</nombre><duracion>4:31</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>CAROUSEL</nombre><duracion>3:00</duracion><calificacion>4</calificacion></cancion>
+            <cancion><nombre>SICKO MODE</nombre><duracion>5:12</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>R.I.P. SCREW</nombre><duracion>3:05</duracion><calificacion>4</calificacion></cancion>
+            <cancion><nombre>STOP TRYING TO BE GOD</nombre><duracion>5:38</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>NO BYSTANDERS</nombre><duracion>3:38</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>SKELETONS</nombre><duracion>2:25</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>WAKE UP</nombre><duracion>3:52</duracion><calificacion>4</calificacion></cancion>
+            <cancion><nombre>5% TINT</nombre><duracion>3:16</duracion><calificacion>4</calificacion></cancion>
+            <cancion><nombre>NC-17</nombre><duracion>2:37</duracion><calificacion>4</calificacion></cancion>
+            <cancion><nombre>ASTROTHUNDER</duracion><duracion>2:23</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>YOSEMITE</nombre><duracion>2:30</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>CAN'T SAY</nombre><duracion>3:18</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>WHO? WHAT!</nombre><duracion>2:56</duracion><calificacion>4</calificacion></cancion>
+            <cancion><nombre>BUTTERFLY EFFECT</nombre><duracion>3:10</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>HOUSTONFORNICATION</nombre><duracion>3:37</duracion><calificacion>4</calificacion></cancion>
+            <cancion><nombre>COFFEE BEAN</nombre><duracion>3:29</duracion><calificacion>4</calificacion></cancion>
         </canciones>
     </album>
 
