@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (album+)>
+    <!ELEMENT album (titulo, artista, genero, anio, portada, calificacion, canciones)>
+    <!ATTLIST album id CDATA #REQUIRED>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT artista (#PCDATA)>
+    <!ELEMENT genero (#PCDATA)>
+    <!ELEMENT anio (#PCDATA)>
+    <!ELEMENT portada (#PCDATA)>
+    <!ELEMENT calificacion (#PCDATA)>
+    <!ELEMENT canciones (cancion+)>
+    <!ELEMENT cancion (nombre, duracion, calificacion)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT duracion (#PCDATA)>
+]>
+
 <biblioteca>
     
     <album id="1">
@@ -92,7 +108,7 @@
             <cancion><nombre>WAKE UP</nombre><duracion>3:52</duracion><calificacion>4</calificacion></cancion>
             <cancion><nombre>5% TINT</nombre><duracion>3:16</duracion><calificacion>4</calificacion></cancion>
             <cancion><nombre>NC-17</nombre><duracion>2:37</duracion><calificacion>4</calificacion></cancion>
-            <cancion><nombre>ASTROTHUNDER</duracion><duracion>2:23</duracion><calificacion>5</calificacion></cancion>
+            <cancion><nombre>ASTROTHUNDER</nombre><duracion>2:23</duracion><calificacion>5</calificacion></cancion>
             <cancion><nombre>YOSEMITE</nombre><duracion>2:30</duracion><calificacion>5</calificacion></cancion>
             <cancion><nombre>CAN'T SAY</nombre><duracion>3:18</duracion><calificacion>5</calificacion></cancion>
             <cancion><nombre>WHO? WHAT!</nombre><duracion>2:56</duracion><calificacion>4</calificacion></cancion>
