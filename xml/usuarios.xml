@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE usuarios [
+    <!ELEMENT usuarios (usuario+)>
+    <!ELEMENT usuario (nombre, password)>
+    <!ATTLIST usuario id CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT password (#PCDATA)>
+]>
+<usuarios>
+    <usuario id="1">
+        <nombre>kevin</nombre>
+        <password>admin123</password>
+    </usuario>
+    <usuario id="2">
+        <nombre>profesor</nombre>
+        <password>ftwLISTI26</password>
+    </usuario>
+</usuarios>

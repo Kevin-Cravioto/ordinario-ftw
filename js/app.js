@@ -24,12 +24,20 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         }
     }
-
+    
     // Inicializar vista de detalle
     const contenedorDetalle = document.getElementById("contenedor-detalle");
     if (contenedorDetalle) {
         cargarDetalle(contenedorDetalle);
     }
+
+
+    // Inicializar login
+    const formLogin = document.getElementById("form-login");
+    if (formLogin) {
+        formLogin.addEventListener("submit", validarLogin);
+    }
+
 });
 
 function cargarCatalogo(contenedor) {
@@ -193,4 +201,44 @@ function cargarDetalle(contenedor) {
             console.error("Error al cargar los detalles:", error);
             contenedor.innerHTML = `<p class="text-danger text-center">Error al conectar con la base de datos.</p>`;
         });
+}
+
+
+function validarLogin(evento) {
+    // Evitar que el formulario recargue la página
+    evento.preventDefault();
+    
+    const userIngresado = document.getElementById("input-usuario").value.trim();
+    const passIngresado = document.getElementById("input-password").value.trim();
+    const mensajeError = document.getElementById("mensaje-error");
+
+    fetch("../xml/usuarios.xml")
+        .then(respuesta => respuesta.text())
+        .then(datosXML => {
+            const parser = new DOMParser();
+            const xml = parser.parseFromString(datosXML, "application/xml");
+            const usuarios = xml.getElementsByTagName("usuario");
+            
+            let accesoConcedido = false;
+
+            // Comprobar credenciales contra el XML
+            for (let i = 0; i < usuarios.length; i++) {
+                let nombreXML = usuarios[i].getElementsByTagName("nombre")[0].textContent;
+                let passXML = usuarios[i].getElementsByTagName("password")[0].textContent;
+
+                if (userIngresado === nombreXML && passIngresado === passXML) {
+                    accesoConcedido = true;
+                    break;
+                }
+            }
+
+            if (accesoConcedido) {
+                // Redirigir al catálogo si los datos son correctos
+                window.location.href = "catalogo.html";
+            } else {
+                // Mostrar alerta de error
+                mensajeError.classList.remove("d-none");
+            }
+        })
+        .catch(error => console.error("Error al leer usuarios.xml:", error));
 }

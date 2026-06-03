@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión | K-Music</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="d-flex align-items-center py-4 custom-bg min-vh-100">
+
+    <main class="form-signin w-100 m-auto" style="max-width: 400px;">
+        <div class="card bg-dark border-purple p-4 shadow-lg">
+            <h2 class="text-center text-purple fw-bold mb-4">K-Music</h2>
+            
+            <form id="form-login">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control bg-dark text-light border-secondary" id="input-usuario" placeholder="Usuario" required>
+                    <label for="input-usuario" class="text-secondary">Usuario</label>
+                </div>
+                
+                <div class="form-floating mb-4">
+                    <input type="password" class="form-control bg-dark text-light border-secondary" id="input-password" placeholder="Contraseña" required>
+                    <label for="input-password" class="text-secondary">Contraseña</label>
+                </div>
+
+                <div id="mensaje-error" class="alert alert-danger d-none py-2 text-center" role="alert">
+                    Usuario o contraseña incorrectos.
+                </div>
+
+                <button class="btn btn-purple w-100 py-2 fw-bold" type="submit">Entrar al Catálogo</button>
+            </form>
+            
+            <div class="text-center mt-3">
+                <a href="index.html" class="text-secondary text-decoration-none small">Volver al inicio</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>
