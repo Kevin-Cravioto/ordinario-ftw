@@ -1,6 +1,7 @@
-/* Paleta de colores oscura */
+/* Variables de color */
 :root {
     --purple-neon: #a855f7;
+    --purple-dark: #6f42c1;
     --blue-faded: #3b82f6;
     --bg-deep-dark: #09090b;
 }
@@ -9,14 +10,13 @@ body {
     background-color: var(--bg-deep-dark) !important;
 }
 
-/* Textos morados */
+/* Estilos de texto */
 .text-purple {
     color: var(--purple-neon) !important;
     text-shadow: 0 0 10px rgba(168, 85, 247, 0.3);
 }
 
-
-/* Línea divisoria independiente para el centro de la página */
+/* Elementos decorativos */
 .aesthetic-line {
     height: 2px;
     width: 60%;
@@ -26,10 +26,10 @@ body {
     border-radius: 50%;
 }
 
-/* Borde inferior del Navbar desvanecido */
 .nav-aesthetic {
     position: relative;
 }
+
 .nav-aesthetic::after {
     content: '';
     position: absolute;
@@ -40,10 +40,10 @@ body {
     background: linear-gradient(90deg, transparent 0%, rgba(168, 85, 247, 0.6) 20%, rgba(59, 130, 246, 0.6) 80%, transparent 100%);
 }
 
-/* Borde superior del Footer desvanecido */
 .footer-aesthetic {
     position: relative;
 }
+
 .footer-aesthetic::before {
     content: '';
     position: absolute;
@@ -54,9 +54,7 @@ body {
     background: linear-gradient(90deg, transparent 0%, rgba(59, 130, 246, 0.6) 20%, rgba(168, 85, 247, 0.6) 80%, transparent 100%);
 }
 
-/* --- BOTÓN Y FONDOS --- */
-
-/* Botón fantasma morado con efecto neón */
+/* Botones */
 .btn-outline-purple {
     color: var(--purple-neon);
     border: 2px solid var(--purple-neon);
@@ -72,40 +70,72 @@ body {
     box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
 }
 
-/* Degradado muy sutil de fondo */
+.btn-purple {
+    background-color: var(--purple-dark);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-purple:hover {
+    background-color: var(--purple-neon);
+    color: white;
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.5);
+}
+
+/* Utilidades */
+.border-purple {
+    border-color: var(--purple-dark) !important;
+}
+
+.bg-purple {
+    background-color: var(--purple-dark) !important;
+}
+
 .custom-bg {
     background: radial-gradient(circle at top, #14101f 0%, var(--bg-deep-dark) 100%);
 }
 
-/* Media queries*/
+/* Media queries */
+@media (max-width: 992px) {
+    .navbar-brand {
+        font-size: 1.4rem;
+    }
+    .custom-bg {
+        background-color: #0b0b0d !important;
+    }
+}
 
-/* Ajustes para pantallas pequeñas (Celulares, max 768px) */
 @media screen and (max-width: 768px) {
-    /* Achicar un poco el título principal de las portadas */
     .card-title {
         font-size: 1.1rem;
     }
-    
-    /* Reducir el tamaño de las estrellas para que no se amontonen */
     .fs-5 {
         font-size: 1rem !important;
     }
-
-    /* Reducir el padding de la tarjeta de Login en móviles */
     .form-signin .card {
         padding: 1.5rem !important;
     }
-
-    /* Ajustar el título principal de la vista de Detalle */
     h2.text-light {
         font-size: 1.8rem;
     }
 }
 
-/* Ajustes para pantallas muy pequeñas (Teléfonos viejos, max 480px) */
+@media (max-width: 576px) {
+    .display-5 {
+        font-size: 2.2rem;
+    }
+    .table {
+        font-size: 0.85rem;
+    }
+    main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .btn-outline-purple {
-        width: 100%; /* Botones a lo ancho de la pantalla para picar fácil con el dedo */
+        width: 100%;
         margin-top: 5px;
     }
 }

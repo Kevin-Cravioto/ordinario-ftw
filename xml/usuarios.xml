@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE usuarios [
-    <!ELEMENT usuarios (usuario+)>
-    <!ELEMENT usuario (nombre, password)>
-    <!ATTLIST usuario id CDATA #REQUIRED>
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT password (#PCDATA)>
-]>
+<!DOCTYPE biblioteca SYSTEM "usuarios.dtd">
 <usuarios>
     <usuario id="1">
         <nombre>kevin</nombre>

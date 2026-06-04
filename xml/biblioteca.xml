@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE biblioteca [
-    <!ELEMENT biblioteca (album+)>
-    <!ELEMENT album (titulo, artista, genero, anio, portada, calificacion, canciones)>
-    <!ATTLIST album id CDATA #REQUIRED>
-    <!ELEMENT titulo (#PCDATA)>
-    <!ELEMENT artista (#PCDATA)>
-    <!ELEMENT genero (#PCDATA)>
-    <!ELEMENT anio (#PCDATA)>
-    <!ELEMENT portada (#PCDATA)>
-    <!ELEMENT calificacion (#PCDATA)>
-    <!ELEMENT canciones (cancion+)>
-    <!ELEMENT cancion (nombre, duracion, calificacion)>
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT duracion (#PCDATA)>
-]>
-
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
 <biblioteca>
     
     <album id="1">
