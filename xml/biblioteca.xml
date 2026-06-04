@@ -31,14 +31,59 @@
                 <calificacion>5</calificacion>
             </cancion>
             <cancion>
+                <nombre>It's So Easy</nombre>
+                <duracion>3:22</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Nightrain</nombre>
+                <duracion>4:28</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Out ta Get Me</nombre>
+                <duracion>4:24</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Mr. Brownstone</nombre>
+                <duracion>3:49</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Paradise City</nombre>
+                <duracion>6:46</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>My Michelle</nombre>
+                <duracion>3:40</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Think About You</nombre>
+                <duracion>3:52</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
                 <nombre>Sweet Child O' Mine</nombre>
                 <duracion>5:56</duracion>
                 <calificacion>5</calificacion>
             </cancion>
             <cancion>
-                <nombre>Paradise City</nombre>
-                <duracion>6:46</duracion>
+                <nombre>You're Crazy</nombre>
+                <duracion>3:17</duracion>
                 <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Anything Goes</nombre>
+                <duracion>3:26</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Rocket Queen</nombre>
+                <duracion>6:13</duracion>
+                <calificacion>5</calificacion>
             </cancion>
         </canciones>
     </album>
@@ -57,8 +102,58 @@
                 <calificacion>5</calificacion>
             </cancion>
             <cancion>
+                <nombre>In Bloom</nombre>
+                <duracion>4:15</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
                 <nombre>Come As You Are</nombre>
                 <duracion>3:39</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Breed</nombre>
+                <duracion>3:04</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Lithium</nombre>
+                <duracion>4:17</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Polly</nombre>
+                <duracion>2:57</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Territorial Pissings</nombre>
+                <duracion>2:23</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Drain You</nombre>
+                <duracion>3:44</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Lounge Act</nombre>
+                <duracion>2:37</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Stay Away</nombre>
+                <duracion>3:33</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>On a Plain</nombre>
+                <duracion>3:16</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Something in the Way</nombre>
+                <duracion>3:52</duracion>
                 <calificacion>4</calificacion>
             </cancion>
         </canciones>
@@ -72,21 +167,81 @@
         <portada>../img/dinastia.jpg</portada>
         <calificacion>5</calificacion>
         <canciones>
-            <cancion><nombre>intro</nombre><duracion>1:50</duracion><calificacion>4</calificacion></cancion>
-            <cancion><nombre>dopamina</nombre><duracion>3:12</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>ni pedo</nombre><duracion>2:45</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>putielegante</nombre><duracion>3:05</duracion><calificacion>4</calificacion></cancion>
-            <cancion><nombre>7-3</nombre><duracion>2:58</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>billete</nombre><duracion>3:15</duracion><calificacion>4</calificacion></cancion>
-            <cancion><nombre>daño</nombre><duracion>2:50</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>trucha</nombre><duracion>3:22</duracion><calificacion>4</calificacion></cancion>
-            <cancion><nombre>morras II</nombre><duracion>3:10</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>mezcal</nombre><duracion>2:48</duracion><calificacion>4</calificacion></cancion>
-            <cancion><nombre>malibu</nombre><duracion>3:01</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>20s</nombre><duracion>2:35</duracion><calificacion>4</calificacion></cancion>
-            <cancion><nombre>viejo lobo</nombre><duracion>3:18</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>tu con el</nombre><duracion>2:55</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>bckpckbyz</nombre><duracion>3:43</duracion><calificacion>5</calificacion></cancion>
+            <cancion>
+                <nombre>intro</nombre>
+                <duracion>1:50</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>dopamina</nombre>
+                <duracion>3:12</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>ni pedo</nombre>
+                <duracion>2:45</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>putielegante</nombre>
+                <duracion>3:05</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>7-3</nombre>
+                <duracion>2:58</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>billete</nombre>
+                <duracion>3:15</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>daño</nombre>
+                <duracion>2:50</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>trucha</nombre>
+                <duracion>3:22</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>morras II</nombre>
+                <duracion>3:10</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>mezcal</nombre>
+                <duracion>2:48</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>malibu</nombre>
+                <duracion>3:01</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>20s</nombre>
+                <duracion>2:35</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>viejo lobo</nombre>
+                <duracion>3:18</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>tu con el</nombre>
+                <duracion>2:55</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>bckpckbyz</nombre>
+                <duracion>3:43</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
         </canciones>
     </album>
 
@@ -98,24 +253,1277 @@
         <portada>../img/astroworld.jpg</portada>
         <calificacion>5</calificacion>
         <canciones>
-            <cancion><nombre>STARGAZING</nombre><duracion>4:31</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>CAROUSEL</nombre><duracion>3:00</duracion><calificacion>4</calificacion></cancion>
-            <cancion><nombre>SICKO MODE</nombre><duracion>5:12</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>R.I.P. SCREW</nombre><duracion>3:05</duracion><calificacion>4</calificacion></cancion>
-            <cancion><nombre>STOP TRYING TO BE GOD</nombre><duracion>5:38</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>NO BYSTANDERS</nombre><duracion>3:38</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>SKELETONS</nombre><duracion>2:25</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>WAKE UP</nombre><duracion>3:52</duracion><calificacion>4</calificacion></cancion>
-            <cancion><nombre>5% TINT</nombre><duracion>3:16</duracion><calificacion>4</calificacion></cancion>
-            <cancion><nombre>NC-17</nombre><duracion>2:37</duracion><calificacion>4</calificacion></cancion>
-            <cancion><nombre>ASTROTHUNDER</nombre><duracion>2:23</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>YOSEMITE</nombre><duracion>2:30</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>CAN'T SAY</nombre><duracion>3:18</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>WHO? WHAT!</nombre><duracion>2:56</duracion><calificacion>4</calificacion></cancion>
-            <cancion><nombre>BUTTERFLY EFFECT</nombre><duracion>3:10</duracion><calificacion>5</calificacion></cancion>
-            <cancion><nombre>HOUSTONFORNICATION</nombre><duracion>3:37</duracion><calificacion>4</calificacion></cancion>
-            <cancion><nombre>COFFEE BEAN</nombre><duracion>3:29</duracion><calificacion>4</calificacion></cancion>
+            <cancion>
+                <nombre>STARGAZING</nombre>
+                <duracion>4:31</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>CAROUSEL</nombre>
+                <duracion>3:00</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>SICKO MODE</nombre>
+                <duracion>5:12</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>R.I.P. SCREW</nombre>
+                <duracion>3:05</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>STOP TRYING TO BE GOD</nombre>
+                <duracion>5:38</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>NO BYSTANDERS</nombre>
+                <duracion>3:38</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>SKELETONS</nombre>
+                <duracion>2:25</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>WAKE UP</nombre>
+                <duracion>3:52</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>5% TINT</nombre>
+                <duracion>3:16</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>NC-17</nombre>
+                <duracion>2:37</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>ASTROTHUNDER</nombre>
+                <duracion>2:23</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>YOSEMITE</nombre>
+                <duracion>2:30</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>CAN'T SAY</nombre>
+                <duracion>3:18</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>WHO? WHAT!</nombre>
+                <duracion>2:56</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>BUTTERFLY EFFECT</nombre>
+                <duracion>3:10</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>HOUSTONFORNICATION</nombre>
+                <duracion>3:37</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>COFFEE BEAN</nombre>
+                <duracion>3:29</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
         </canciones>
     </album>
 
+    <album id="5">
+        <titulo>Sincopa</titulo>
+        <artista>Cartel de Santa</artista>
+        <genero>Hip-Hop / Rap</genero>
+        <anio>2010</anio>
+        <portada>../img/sincopa.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>Bombos y Tarolas</nombre>
+                <duracion>4:52</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Mariconatico</nombre>
+                <duracion>4:29</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Traficando Rimas</nombre>
+                <duracion>4:35</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>El Hornazo</nombre>
+                <duracion>4:10</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Escucha y Aprende</nombre>
+                <duracion>4:14</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Con el Coco Rapado</nombre>
+                <duracion>4:00</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Dale Fuego</nombre>
+                <duracion>4:15</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>El Mal Necesario</nombre>
+                <duracion>4:29</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Volar, Volar</nombre>
+                <duracion>5:00</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Mobster Paradise</nombre>
+                <duracion>4:43</duracion>
+                <calificacion>3</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Con el Corazón</nombre>
+                <duracion>4:40</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>El Ratón y el Queso</nombre>
+                <duracion>5:20</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="6">
+        <titulo>After Hours</titulo>
+        <artista>The Weeknd</artista>
+        <genero>R&amp;B / Pop</genero>
+        <anio>2020</anio>
+        <portada>../img/afterhours.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>Alone Again</nombre>
+                <duracion>4:10</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Too Late</nombre>
+                <duracion>3:59</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Hardest To Love</nombre>
+                <duracion>3:31</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Scared To Live</nombre>
+                <duracion>3:11</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Snowchild</nombre>
+                <duracion>4:07</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Escape From LA</nombre>
+                <duracion>5:55</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Heartless</nombre>
+                <duracion>3:20</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Faith</nombre>
+                <duracion>4:43</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Blinding Lights</nombre>
+                <duracion>3:21</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>In Your Eyes</nombre>
+                <duracion>3:57</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Save Your Tears</nombre>
+                <duracion>3:35</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Repeat After Me (Interlude)</nombre>
+                <duracion>3:15</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>After Hours</nombre>
+                <duracion>6:01</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Until I Bleed Out</nombre>
+                <duracion>3:10</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="7">
+        <titulo>DS2</titulo>
+        <artista>Future</artista>
+        <genero>Trap</genero>
+        <anio>2015</anio>
+        <portada>../img/ds2.jpg</portada>
+        <calificacion>4</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>Thought It Was a Drought</nombre>
+                <duracion>4:25</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>I Serve the Base</nombre>
+                <duracion>3:08</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Where Ya At (feat. Drake)</nombre>
+                <duracion>3:27</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Groupies</nombre>
+                <duracion>3:06</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Lil One</nombre>
+                <duracion>3:27</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Stick Talk</nombre>
+                <duracion>2:50</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Freak Hoe</nombre>
+                <duracion>2:59</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Rotation</nombre>
+                <duracion>2:45</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Slave Master</nombre>
+                <duracion>3:18</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Blow a Bag</nombre>
+                <duracion>3:19</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Colossal</nombre>
+                <duracion>3:04</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Rich $ex</nombre>
+                <duracion>4:00</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Blood On the Money</nombre>
+                <duracion>4:46</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Fuck Up Some Commas</nombre>
+                <duracion>3:57</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="8">
+        <titulo>DAMN.</titulo>
+        <artista>Kendrick Lamar</artista>
+        <genero>Hip-Hop</genero>
+        <anio>2017</anio>
+        <portada>../img/damn.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>BLOOD.</nombre>
+                <duracion>1:58</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>DNA.</nombre>
+                <duracion>3:05</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>YAH.</nombre>
+                <duracion>2:40</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>ELEMENT.</nombre>
+                <duracion>3:28</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>FEEL.</nombre>
+                <duracion>3:34</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>LOYALTY. (feat. Rihanna)</nombre>
+                <duracion>3:47</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>PRIDE.</nombre>
+                <duracion>4:35</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>HUMBLE.</nombre>
+                <duracion>2:57</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>LUST.</nombre>
+                <duracion>5:07</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>LOVE. (feat. Zacari)</nombre>
+                <duracion>3:33</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>XXX. (feat. U2)</nombre>
+                <duracion>4:14</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>FEAR.</nombre>
+                <duracion>7:40</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>GOD.</nombre>
+                <duracion>4:08</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>DUCKWORTH.</nombre>
+                <duracion>4:08</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="9">
+        <titulo>Un Verano Sin Ti</titulo>
+        <artista>Bad Bunny</artista>
+        <genero>Reggaeton</genero>
+        <anio>2022</anio>
+        <portada>../img/unverano.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>Moscow Mule</nombre>
+                <duracion>4:05</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Después de la Playa</nombre>
+                <duracion>3:50</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Me Porto Bonito</nombre>
+                <duracion>2:58</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Tití Me Preguntó</nombre>
+                <duracion>4:03</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Un Ratito</nombre>
+                <duracion>2:56</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Yo No Soy Celoso</nombre>
+                <duracion>3:50</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Tarot</nombre>
+                <duracion>3:57</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Neverita</nombre>
+                <duracion>2:53</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>La Corriente</nombre>
+                <duracion>3:18</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Efecto</nombre>
+                <duracion>3:33</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Party</nombre>
+                <duracion>3:47</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Ojitos Lindos</nombre>
+                <duracion>4:18</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="10">
+        <titulo>Power, Corruption &amp; Lies</titulo>
+        <artista>New Order</artista>
+        <genero>Post-Punk / Synthpop</genero>
+        <anio>1983</anio>
+        <portada>../img/neworder.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>Age of Consent</nombre>
+                <duracion>5:15</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>We All Stand</nombre>
+                <duracion>5:14</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>The Village</nombre>
+                <duracion>4:37</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>5 8 6</nombre>
+                <duracion>7:31</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Your Silent Face</nombre>
+                <duracion>5:59</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Ultraviolence</nombre>
+                <duracion>4:51</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Ecstasy</nombre>
+                <duracion>4:25</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Leave Me Alone</nombre>
+                <duracion>4:40</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="11">
+        <titulo>Nata Montana</titulo>
+        <artista>Natanael Cano</artista>
+        <genero>Corridos Tumbados</genero>
+        <anio>2023</anio>
+        <portada>../img/natamontana.jpg</portada>
+        <calificacion>4</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>Dirán De Mi</nombre>
+                <duracion>2:41</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Mas Altas Que Bajadas</nombre>
+                <duracion>3:14</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>La Lokerona</nombre>
+                <duracion>3:12</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Un Convoy</nombre>
+                <duracion>2:38</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Pancakes</nombre>
+                <duracion>3:01</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Viejo Lobo</nombre>
+                <duracion>2:50</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>AFS</nombre>
+                <duracion>2:47</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Eres</nombre>
+                <duracion>2:55</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Mi Bello Angel</nombre>
+                <duracion>3:09</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>AMG</nombre>
+                <duracion>2:54</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="12">
+        <titulo>Graduation</titulo>
+        <artista>Kanye West</artista>
+        <genero>Hip-Hop</genero>
+        <anio>2007</anio>
+        <portada>../img/graduation.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>Good Morning</nombre>
+                <duracion>3:15</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Champion</nombre>
+                <duracion>2:47</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Stronger</nombre>
+                <duracion>5:11</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>I Wonder</nombre>
+                <duracion>4:03</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Good Life</nombre>
+                <duracion>3:27</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Can't Tell Me Nothing</nombre>
+                <duracion>4:31</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Barry Bonds</nombre>
+                <duracion>3:24</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Drunk and Hot Girls</nombre>
+                <duracion>5:13</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Flashing Lights</nombre>
+                <duracion>3:57</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Everything I Am</nombre>
+                <duracion>3:47</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>The Glory</nombre>
+                <duracion>3:32</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Homecoming</nombre>
+                <duracion>3:26</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Big Brother</nombre>
+                <duracion>4:47</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="13">
+        <titulo>AM</titulo>
+        <artista>Arctic Monkeys</artista>
+        <genero>Indie Rock</genero>
+        <anio>2013</anio>
+        <portada>../img/am.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>Do I Wanna Know?</nombre>
+                <duracion>4:32</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>R U Mine?</nombre>
+                <duracion>3:20</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>One for the Road</nombre>
+                <duracion>3:26</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Arabella</nombre>
+                <duracion>3:27</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>I Want It All</nombre>
+                <duracion>3:04</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>No. 1 Party Anthem</nombre>
+                <duracion>4:03</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Mad Sounds</nombre>
+                <duracion>3:35</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Fireside</nombre>
+                <duracion>3:01</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Why'd You Only Call Me When You're High?</nombre>
+                <duracion>2:41</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Snap Out of It</nombre>
+                <duracion>3:12</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Knee Socks</nombre>
+                <duracion>4:17</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>I Wanna Be Yours</nombre>
+                <duracion>3:03</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="14">
+        <titulo>GÉNESIS</titulo>
+        <artista>Peso Pluma</artista>
+        <genero>Corridos Tumbados</genero>
+        <anio>2023</anio>
+        <portada>../img/genesis.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>ROSA PASTEL</nombre>
+                <duracion>3:12</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>LUNA</nombre>
+                <duracion>2:43</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>77</nombre>
+                <duracion>3:34</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>RUBICON</nombre>
+                <duracion>3:25</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>CARNAL</nombre>
+                <duracion>2:54</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>GAVILÁN II</nombre>
+                <duracion>3:05</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>VVS</nombre>
+                <duracion>2:44</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>SU CASA</nombre>
+                <duracion>3:02</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>LADY GAGA</nombre>
+                <duracion>3:32</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>ZAPATA</nombre>
+                <duracion>2:57</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>LA PEOPLE</nombre>
+                <duracion>2:33</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>NUEVA VIDA</nombre>
+                <duracion>3:08</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>LAGUNAS</nombre>
+                <duracion>3:50</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>BYE</nombre>
+                <duracion>3:32</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+        <album id="15">
+        <titulo>Master of Puppets</titulo>
+        <artista>Metallica</artista>
+        <genero>Thrash Metal</genero>
+        <anio>1986</anio>
+        <portada>../img/masterofpuppets.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>Battery</nombre>
+                <duracion>5:13</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Master of Puppets</nombre>
+                <duracion>8:36</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>The Thing That Should Not Be</nombre>
+                <duracion>6:37</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Welcome Home (Sanitarium)</nombre>
+                <duracion>6:28</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Disposable Heroes</nombre>
+                <duracion>8:17</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Leper Messiah</nombre>
+                <duracion>5:40</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Orion</nombre>
+                <duracion>8:28</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Damage, Inc.</nombre>
+                <duracion>5:33</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="16">
+        <titulo>Take Care</titulo>
+        <artista>Drake</artista>
+        <genero>Hip-Hop / R&amp;B</genero>
+        <anio>2011</anio>
+        <portada>../img/takecare.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>Over My Dead Body</nombre>
+                <duracion>4:32</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Shot for Me</nombre>
+                <duracion>3:44</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Headlines</nombre>
+                <duracion>3:56</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Crew Love (feat. The Weeknd)</nombre>
+                <duracion>3:28</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Take Care (feat. Rihanna)</nombre>
+                <duracion>4:37</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Marvins Room</nombre>
+                <duracion>5:47</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Buried Alive Interlude (feat. Kendrick Lamar)</nombre>
+                <duracion>2:31</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Under Ground Kings</nombre>
+                <duracion>3:32</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>We'll Be Fine</nombre>
+                <duracion>4:08</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Make Me Proud (feat. Nicki Minaj)</nombre>
+                <duracion>3:39</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Lord Knows (feat. Rick Ross)</nombre>
+                <duracion>5:07</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Cameras / Good Ones Go Interlude</nombre>
+                <duracion>7:14</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Doing It Wrong</nombre>
+                <duracion>4:25</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>The Real Her (feat. Lil Wayne &amp; André 3000)</nombre>
+                <duracion>5:21</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>HYFR (Hell Ya Fucking Right) (feat. Lil Wayne)</nombre>
+                <duracion>3:26</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Practice</nombre>
+                <duracion>3:57</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>The Ride</nombre>
+                <duracion>5:13</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="17">
+        <titulo>When We All Fall Asleep, Where Do We Go?</titulo>
+        <artista>Billie Eilish</artista>
+        <genero>Alt Pop</genero>
+        <anio>2019</anio>
+        <portada>../img/billieasleep.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>!!!!!!!</nombre>
+                <duracion>0:14</duracion>
+                <calificacion>3</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>bad guy</nombre>
+                <duracion>3:14</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>xanny</nombre>
+                <duracion>4:03</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>you should see me in a crown</nombre>
+                <duracion>3:00</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>all the good girls go to hell</nombre>
+                <duracion>2:48</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>wish you were gay</nombre>
+                <duracion>3:41</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>when the party's over</nombre>
+                <duracion>3:16</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>8</nombre>
+                <duracion>2:53</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>my strange addiction</nombre>
+                <duracion>3:00</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>bury a friend</nombre>
+                <duracion>3:13</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>ilomilo</nombre>
+                <duracion>2:36</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>listen before i go</nombre>
+                <duracion>4:02</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>i love you</nombre>
+                <duracion>4:51</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>goodbye</nombre>
+                <duracion>1:59</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="18">
+        <titulo>IGOR</titulo>
+        <artista>Tyler, The Creator</artista>
+        <genero>Experimental Hip-Hop</genero>
+        <anio>2019</anio>
+        <portada>../img/igor.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>IGOR'S THEME</nombre>
+                <duracion>3:20</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>EARFQUAKE</nombre>
+                <duracion>3:10</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>I THINK</nombre>
+                <duracion>3:32</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>EXACTLY WHAT YOU RUN FROM YOU END UP CHASING</nombre>
+                <duracion>0:14</duracion>
+                <calificacion>3</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>RUNNING OUT OF TIME</nombre>
+                <duracion>2:57</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>NEW MAGIC WAND</nombre>
+                <duracion>3:15</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>A BOY IS A GUN*</nombre>
+                <duracion>3:30</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>PUPPET</nombre>
+                <duracion>3:00</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>WHAT'S GOOD</nombre>
+                <duracion>3:25</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>GONE, GONE / THANK YOU</nombre>
+                <duracion>6:15</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>I DON'T LOVE YOU ANYMORE</nombre>
+                <duracion>2:41</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>ARE WE STILL FRIENDS?</nombre>
+                <duracion>4:25</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="19">
+        <titulo>Sueño Stereo</titulo>
+        <artista>Soda Stereo</artista>
+        <genero>Rock Latino / Alternative</genero>
+        <anio>1995</anio>
+        <portada>../img/suenostereo.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>Ella Usó Mi Cabeza Como un Revólver</nombre>
+                <duracion>4:32</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Disco Eterno</nombre>
+                <duracion>5:46</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Zoom</nombre>
+                <duracion>3:27</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Ojo de la Tormenta</nombre>
+                <duracion>4:33</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Efecto Doppler</nombre>
+                <duracion>5:03</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Paseando por Roma</nombre>
+                <duracion>3:35</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Pasos</nombre>
+                <duracion>3:54</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Ángel Eléctrico</nombre>
+                <duracion>4:36</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Crema de Estrellas</nombre>
+                <duracion>4:38</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Planta</nombre>
+                <duracion>4:57</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>X-Playo</nombre>
+                <duracion>2:20</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Moirè</nombre>
+                <duracion>4:40</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <album id="20">
+        <titulo>Renaissance</titulo>
+        <artista>Beyoncé</artista>
+        <genero>Dance / House</genero>
+        <anio>2022</anio>
+        <portada>../img/renaissance.jpg</portada>
+        <calificacion>5</calificacion>
+        <canciones>
+            <cancion>
+                <nombre>I'm That Girl</nombre>
+                <duracion>3:37</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Cozy</nombre>
+                <duracion>3:30</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Alien Superstar</nombre>
+                <duracion>3:35</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Cuff It</nombre>
+                <duracion>3:45</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Energy (feat. BEAM)</nombre>
+                <duracion>1:57</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Break My Soul</nombre>
+                <duracion>4:38</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Church Girl</nombre>
+                <duracion>3:44</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Plastic Off the Sofa</nombre>
+                <duracion>4:14</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Virgo's Groove</nombre>
+                <duracion>6:08</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Move (feat. Grace Jones &amp; Tems)</nombre>
+                <duracion>3:23</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Heated</nombre>
+                <duracion>4:20</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Thique</nombre>
+                <duracion>4:04</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>All Up In Your Mind</nombre>
+                <duracion>2:32</duracion>
+                <calificacion>4</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>America Has a Problem</nombre>
+                <duracion>3:18</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Pure/Honey</nombre>
+                <duracion>4:48</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+            <cancion>
+                <nombre>Summer Renaissance</nombre>
+                <duracion>4:34</duracion>
+                <calificacion>5</calificacion>
+            </cancion>
+        </canciones>
+    </album>
 </biblioteca>
