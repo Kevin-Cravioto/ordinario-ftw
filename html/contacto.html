@@ -29,7 +29,7 @@
         </nav>
     </header>
 
-    <main class="container my-5">
+    <main class="container my-5 flex-grow-1">
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <div class="card bg-dark border-purple p-4 shadow-lg">
@@ -47,6 +47,19 @@
                             <label class="form-label text-secondary" for="emailInput">Correo Electrónico</label>
                             <input type="email" class="form-control bg-dark text-light border-secondary" id="emailInput" required>
                         </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label text-secondary d-block">Motivo del mensaje</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="motivoRadio" id="radioSugerencia" value="sugerencia" checked>
+                                <label class="form-check-label text-light" for="radioSugerencia">Sugerencia</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="motivoRadio" id="radioError" value="error">
+                                <label class="form-check-label text-light" for="radioError">Reportar Error</label>
+                            </div>
+                        </div>
+
                         <div class="mb-4">
                             <label class="form-label text-secondary" for="mensajeInput">Mensaje</label>
                             <textarea class="form-control bg-dark text-light border-secondary" id="mensajeInput" rows="4" required></textarea>
