@@ -76,3 +76,36 @@ body {
 .custom-bg {
     background: radial-gradient(circle at top, #14101f 0%, var(--bg-deep-dark) 100%);
 }
+
+/* Media queries*/
+
+/* Ajustes para pantallas pequeñas (Celulares, max 768px) */
+@media screen and (max-width: 768px) {
+    /* Achicar un poco el título principal de las portadas */
+    .card-title {
+        font-size: 1.1rem;
+    }
+    
+    /* Reducir el tamaño de las estrellas para que no se amontonen */
+    .fs-5 {
+        font-size: 1rem !important;
+    }
+
+    /* Reducir el padding de la tarjeta de Login en móviles */
+    .form-signin .card {
+        padding: 1.5rem !important;
+    }
+
+    /* Ajustar el título principal de la vista de Detalle */
+    h2.text-light {
+        font-size: 1.8rem;
+    }
+}
+
+/* Ajustes para pantallas muy pequeñas (Teléfonos viejos, max 480px) */
+@media screen and (max-width: 480px) {
+    .btn-outline-purple {
+        width: 100%; /* Botones a lo ancho de la pantalla para picar fácil con el dedo */
+        margin-top: 5px;
+    }
+}
