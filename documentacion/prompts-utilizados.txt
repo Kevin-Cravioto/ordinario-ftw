@@ -1,0 +1,35 @@
+Aqui se encuentran los prompts que utilice para llevar a cabo el proyecto
+-------------------------------------------
+            Prompts utilizados
+-------------------------------------------
+
+1. Generación de mockups (UI/UX)
+--------------------------------------------------------------------
+Objetivo: Generar los bocetos iniciales y la línea gráfica (Dark Mode) 
+para las 7 páginas del sitio web establecidas.
+
+Prompt utilizado (en inglés para mayor precisión):
+"High-fidelity UI/UX web design mockup collage for a Music Library platform.
+The output must show 7 distinct web page layouts arranged in panels, clearly labeled:
+1. 'Inicio' (Modern hero section with featured music), 
+2. 'Catálogo' (Grid layout of album covers with a 5-star rating system under each), 
+3. 'Detalle' (Large album cover, tracklist where each individual song has its own mini 5-star rating), 
+4. 'Artistas' (Beautiful photo cards with musician bios),
+5. 'Favoritos' (User's saved albums library),
+6. 'Estadísticas' (Top Rated Albums charts and visual graphs), and 
+7. 'Contacto' (Modern contact form). Style: High-fidelity, modern web design, realistic UI, dark mode 
+with vibrant neon accents, professional Dribbble aesthetic."
+
+La página de login no fue planeada en un principio hasta que usted nos dijo que tenía que llevar una
+así que me basé en como estaba estructurada la página de contacto, que, como puede observar, es casi lo mismo.
+
+--------------------------------------------------------------------
+2. Ayuda de IA para implementar algunas cosas en el Código 
+--------------------------------------------------------------------
+Objetivo: Apoyo para comprender e implementar lo técnico especificado en la rúbrica (Filtrado dinámico y parseo de XML).
+
+Prompts utilizados durante el desarrollo:
+- "Cómo implementar un buscador en tiempo real usando el evento keyup en JavaScript para filtrar tarjetas del DOM."
+- "Lógica para validar un formulario de login leyendo datos de un archivo usuarios.xml usando fetch."
+- "Estructura correcta de etiquetas semánticas HTML5 (article, aside, main) para una sección de favoritos."
+
