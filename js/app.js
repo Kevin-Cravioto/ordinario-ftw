@@ -258,8 +258,8 @@ function validarLogin(evento) {
             }
 
             if (accesoConcedido) {
-                // Redirigir al catálogo si los datos son correctos
-                window.location.href = "catalogo.html";
+                // Redirigir al inicio si los datos son correctos
+                window.location.href = "index.html";
             } else {
                 // Mostrar alerta de error
                 mensajeError.classList.remove("d-none");
