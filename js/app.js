@@ -1,3 +1,8 @@
+/**
+ * Archivo principal de JavaScript
+ * Contiene toda la lógica para el parseo de XML, filtrado dinámico y validación de usuarios.
+ */
+
 document.addEventListener("DOMContentLoaded", () => {
     // Inicializar catálogo
     const contenedorCatalogo = document.getElementById("contenedor-catalogo");
@@ -7,6 +12,11 @@ document.addEventListener("DOMContentLoaded", () => {
         // Inicializar buscador
         const buscador = document.getElementById("buscador");
         if (buscador) {
+            /**
+             * Filtrado de datos
+             * Lo que hace 'keyup' es capturar el texto ingresado en tiempo real y oculta/muestra
+             * las tarjetas del catálogo iterando sobre el DOM sin tener que recargar la página.
+             */
             buscador.addEventListener("keyup", function() {
                 const textoBusqueda = this.value.toLowerCase();
                 const tarjetas = document.querySelectorAll("#contenedor-catalogo .col");
@@ -31,15 +41,19 @@ document.addEventListener("DOMContentLoaded", () => {
         cargarDetalle(contenedorDetalle);
     }
 
-
     // Inicializar login
     const formLogin = document.getElementById("form-login");
     if (formLogin) {
         formLogin.addEventListener("submit", validarLogin);
     }
-
 });
 
+/**
+ * Función cargarCatalogo
+ * Realiza una petición Fetch a 'biblioteca.xml', extrae los nodos <album> y
+ * proyecta dinámicamente las tarjetas (cards) en el catálogo.
+ * @param {HTMLElement} contenedor - Elemento del DOM en el cual se inyectará el HTML.
+ */
 function cargarCatalogo(contenedor) {
     fetch("../xml/biblioteca.xml")
         .then(respuesta => respuesta.text())
@@ -59,7 +73,7 @@ function cargarCatalogo(contenedor) {
                 let portada = album.getElementsByTagName("portada")[0].textContent;
                 let calificacion = parseInt(album.getElementsByTagName("calificacion")[0].textContent);
                 
-                // Generar estrellas
+                // Generar estrellas dinámicamente según el XML
                 let estrellas = "";
                 for (let j = 1; j <= 5; j++) {
                     estrellas += (j <= calificacion) ? "★" : "☆";
@@ -85,6 +99,12 @@ function cargarCatalogo(contenedor) {
         .catch(error => console.error("Error al cargar el XML:", error));
 }
 
+/**
+ * Función cargarDetalle
+ * Lee el parámetro 'id' de la URL, busca ese álbum específico dentro de 'biblioteca.xml'
+ * y proyecta una vista incluyendo la tabla con la lista de canciones de ese álbum.
+ * @param {HTMLElement} contenedor - Elemento del DOM donde se inyectará el HTML.
+ */
 function cargarDetalle(contenedor) {
     // Obtener ID del álbum desde la URL
     const parametrosURL = new URLSearchParams(window.location.search);
@@ -104,7 +124,7 @@ function cargarDetalle(contenedor) {
             
             let albumEncontrado = null;
 
-            // Buscar el álbum por ID
+            // Buscar el álbum iterando por los IDs
             for (let i = 0; i < albumes.length; i++) {
                 if (albumes[i].getAttribute("id") === idAlbum) {
                     albumEncontrado = albumes[i];
@@ -117,7 +137,7 @@ function cargarDetalle(contenedor) {
                 return;
             }
 
-            // Extraer datos del álbum
+            // Extraer datos generales del álbum
             let titulo = albumEncontrado.getElementsByTagName("titulo")[0].textContent;
             let artista = albumEncontrado.getElementsByTagName("artista")[0].textContent;
             let anio = albumEncontrado.getElementsByTagName("anio")[0].textContent;
@@ -130,7 +150,7 @@ function cargarDetalle(contenedor) {
                 estrellas += (j <= calificacion) ? "★" : "☆";
             }
 
-            // Extraer canciones
+            // Extraer e iterar sobre los nodos <cancion> para llenar la tabla
             let cancionesXML = albumEncontrado.getElementsByTagName("cancion");
             let listaCancionesHTML = "";
 
@@ -203,7 +223,12 @@ function cargarDetalle(contenedor) {
         });
 }
 
-
+/**
+ * Función validarLogin
+ * Previene el recargo por defecto del formulario, lee las credenciales ingresadas,
+ * y las valida iterando sobre los nodos de 'usuarios.xml'.
+ * @param {Event} evento - El evento de envío del formulario.
+ */
 function validarLogin(evento) {
     // Evitar que el formulario recargue la página
     evento.preventDefault();
