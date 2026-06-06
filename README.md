@@ -8,7 +8,7 @@ Alumno: Cravioto Domínguez Kevin
 
 ## Enlaces del Proyecto
 
-Sitio Web Desplegado (GitHub Pages): []
+Sitio Web Desplegado (GitHub Pages): https://kevin-cravioto.github.io/ordinario-ftw/
 Video Demostrativo de Navegación: []
 
 ---
