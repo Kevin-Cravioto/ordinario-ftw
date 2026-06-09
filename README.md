@@ -38,3 +38,7 @@ Búsqueda en Tiempo Real: Al momento de la busqueda de álbumes todo va aparecie
 Vistas mediante URL: Uso de Parámetros de URL (URLSearchParams) para pasar el ID del álbum seleccionado para ver el detalle de este. Esto permite cargar la información de un álbum en la página de detalles leyendo directamente el XML.
 
 Validación de Usuarios:El Login para seguridad valida los datos ingresados contra un nodo XML que se encuentra en el archivo usuarios.xml 
+
+## Para ingresar
+Usuario: kevin
+Contraseña: admin123
